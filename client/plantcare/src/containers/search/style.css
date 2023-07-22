@@ -1,0 +1,117 @@
+.dashboard_top_container{
+    /* background-image: url(../../images/search2.jpeg); */
+    position: relative;
+    height: 20em;
+    background-color: #537E00;
+}
+
+.dashboard_container{
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+.search_text{
+    color: white;
+    font-size: xxx-large;
+    
+}
+.search_container{
+    align-items: center;
+    position: relative;
+    margin-left: 20em;
+    width: 50%;
+    height: 25em;
+    padding-top: 6%;
+
+}
+.dropdown_cont{
+    display: flex;
+    position: relative;
+    padding-top: 2em;
+}
+
+.result_container{
+    width: 100%;
+    height: auto;
+}
+
+.result_container>p{
+    font-size: 34px;
+    margin: 3px;
+    color: #537E00;
+    margin-left: 1em;
+}
+
+.plant_name:hover{
+    width: fit-content;
+    border-bottom: 3px solid #537E00;
+    transition: 0.5s;
+    opacity: 75%;
+}
+
+.country-item{
+    display: inline-flex;
+    align-items: center;
+}
+.country-item > div{
+   margin-left: 20px;
+}
+
+.country-item{
+    margin-top: -9px;
+}
+
+#img-plant{
+    height: 10em;
+    width: 10em;
+}
+.plant_name{
+    font-size: 2em;
+    color: #537E00;
+}
+.plant_desc{
+    width: 30rem;
+}
+
+.p-datatable-selectable{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.8em;
+    box-shadow: 0 0 8px 1px rgb(223, 222, 222); /* line shadow */
+    /* display: inline-block; */
+}
+.p-datatable-thead{
+    display: none;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: justify;
+}
+.planner_btn_card {
+    width: 100%;
+    height: 4em;
+    
+}
+.planner_btn{
+    float: right;
+    border: 1px solid #537E00;
+    margin-right: 6em;
+    background-color: #537E00;
+}
+
+.planner_btn >a{
+    text-decoration: none;
+    color: white;
+}
+#button_default{
+    background-color: #F59E0B;
+    color: white;
+}
+.image_card{
+    display: inline-block;
+    height: auto;
+    margin: 5px 10px;
+}
+.image_card>img{   
+    height: 20px;
+    width: 18px;
+}
